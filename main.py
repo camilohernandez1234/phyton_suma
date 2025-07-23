@@ -1,0 +1,31 @@
+array = []array = []
+suma_total = 0
+
+print("ingrese los numeros que quiere sumar")
+
+while suma_total <= 20:
+    numeros_str = input("Ingrese un numero: ")
+    try:
+        numero = int(numeros_str)
+        array.append(numero)
+        suma_total += numero
+    except ValueError:
+        print(f"Entrada invalida: {numeros_str}. Por favor ingrese un numero.")
+
+print(f"\n¡La suma total ({suma_total}) ")
+print(f"Array final: {array}")
+suma_total = 0
+
+print("ingrese los numeros que quiere sumar")
+
+while suma_total <= 20:
+    numeros_str = input("Ingrese un numero: ")
+    try:
+        numero = int(numeros_str)
+        array.append(numero)
+        suma_total += numero
+    except ValueError:
+        print(f"Entrada invalida: {numeros_str}. Por favor ingrese un numero.")
+
+print(f"\n¡La suma total ({suma_total}) ")
+print(f"Array final: {array}")
